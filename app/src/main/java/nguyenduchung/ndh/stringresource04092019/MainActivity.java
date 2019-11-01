@@ -3,6 +3,7 @@ package nguyenduchung.ndh.stringresource04092019;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void tinhtoan() {
+        Toast.makeText(this, "Show toast", Toast.LENGTH_SHORT).show();
     }
 }
